@@ -1,0 +1,50 @@
+/*--Variables:
+    Color and font family--*/
+    :root{
+        --primary-color: #A369EF;
+        --primary-color-100: #CDFEEA;
+        --primary-color-300:  #AA75F0;
+
+        --secondary-color: #025834;
+        --secondary-color-600: #04C876;
+        --secondary-color-700: #039659;
+
+        --netural-color: #e0e0e0;
+
+        --background-color: #1b1b1b;
+
+        --surface-color:  #252525;
+
+
+
+
+        --lobster-font: "Lobster", sans-serif;
+        --sans-font: "DM Sans", sans-serif;
+
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*--General style:
+    styles than can be applied to all elements. */
+
+    html {
+        background-color: var(--background-color);
+    }
+
+    *{
+        font-family: var(--sans-font);
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
