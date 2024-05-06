@@ -8,6 +8,7 @@
         --secondary-color: #025834;
         --secondary-color-600: #04C876;
         --secondary-color-700: #039659;
+        --secondary-color-900: #01321E;
 
         --netural-color: #e0e0e0;
 
@@ -43,7 +44,7 @@
 
     html {
         background-color: var(--background-color);
-        font-size: 16px;
+        font-size: 14px;
     }
 
     *{
@@ -79,7 +80,7 @@
     }
 
     
-    .tags-container label{
+    .tags-container label, .skills-container label {
         color: var(--primary-color);
         background-color: var(--secondary-color);
         font-size: 1.1rem;
